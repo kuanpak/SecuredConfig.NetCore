@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Jacky Chu</Authors>
+    <PackAsTool>true</PackAsTool>
+    <RepositoryUrl>https://github.com/kuanpak/SecuredConfig.NetCore</RepositoryUrl>
+    <PackageIcon>secured-config-icon.png</PackageIcon>
+    <PackageTags>secured;configuration;appsettings;encryption;overlay;netcore</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ToolCommandName>secured-config</ToolCommandName>
+    <Description>SecuredConfig CLI is a dotnet tool used to encrypt and decrypt configuration values.</Description>
+    <Version>1.0.1-beta1</Version>
+    <IncludeSymbols>True</IncludeSymbols>
+    <AssemblyName>secured-config</AssemblyName>
+    <PackageId>SecuredConfig.Cli</PackageId>
+    <Product>SecuredConfig.Cli</Product>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SecuredConfig.Core\SecuredConfig.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="secured-config-icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
