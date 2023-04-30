@@ -7,19 +7,20 @@
     <Nullable>enable</Nullable>
     <Authors>Jacky Chu</Authors>
     <PackAsTool>true</PackAsTool>
-    <RepositoryUrl>https://github.com/kuanpak/SecuredConfig.NetCore</RepositoryUrl>
+    <RepositoryUrl>https://github.com/kuanpak/SecuredConfig.NetCore.git</RepositoryUrl>
     <PackageIcon>secured-config-icon.png</PackageIcon>
-    <PackageTags>secured;configuration;appsettings;encryption;overlay;netcore</PackageTags>
+    <PackageTags>secured-config;secured;configuration;appsettings;encryption;overlay;netcore</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <ToolCommandName>secured-config</ToolCommandName>
     <Description>SecuredConfig CLI is a dotnet tool used to encrypt and decrypt configuration values.</Description>
-    <Version>1.0.1-beta1</Version>
+    <Version>1.0.1</Version>
     <IncludeSymbols>True</IncludeSymbols>
     <AssemblyName>secured-config</AssemblyName>
     <PackageId>SecuredConfig.Cli</PackageId>
     <Product>SecuredConfig.Cli</Product>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/kuanpak/SecuredConfig.NetCore</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
